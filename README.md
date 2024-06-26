@@ -1,15 +1,25 @@
 ### About
 
-Documentation repository of DareDB database. This documentation is based on [docusaurus](https://docusaurus.io/). 
-To edit/add documentation use the markdown files from ```website/docs/```.
+Documentation repository of DareDB database. Documentation can be found here: [daredb-docs](https://vdmitriyev.github.io/daredb-docs/)
+
+## Notes
+
+* This documentation is based on [docusaurus](https://docusaurus.io/). 
+* To edit/add documentation use the markdown files from ```website/docs/```.
+
+### Deployment as Github Pages
+
+* Configure Github Pages, so it displays "gh-pages" branch
+* Following Github Action will be used to build an deploy HTML to "gh-pages" branch:
+	+ ```build-and-deploy-docs.yml```
 
 ### Usage: Docker
 
 * Clone repo
 * Navigate to website
-```
-cd website
-```
+	```
+	cd website
+	```
 * Run dev server with documentation
 	```
 	docker compose --file dev.docker-compose.yml up -d --build
