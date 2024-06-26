@@ -1,0 +1,8 @@
+services:
+
+  init-website:
+    build:
+      context: .  
+      dockerfile: Dockerfile.init
+    volumes:
+      - ./:/app
