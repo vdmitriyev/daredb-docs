@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/dmarro89/dare-db',
+            'https://github.com/vdmitriyev/daredb-docs/website',            
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/dmarro89/dare-db',
+            'https://github.com/vdmitriyev/daredb-docs/website',
         },
         theme: {
           customCss: './src/css/custom.css',
