@@ -1,6 +1,6 @@
 ### About
 
-Documentation repository of DareDB database. Documentation can be found here: [daredb-docs](https://vdmitriyev.github.io/daredb-docs/)
+Documentation repository of DareDB database. Documentation can be found here: [daredb-docs](https://github.com/dmarro89/daredb-docs)
 
 ## Notes
 
