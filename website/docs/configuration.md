@@ -36,4 +36,8 @@ The database should use a configuration file that will defined following paramet
 | tls_cert_private | `<ROOT>`/settings/cert_private.pem | DARE_TLS_CERT_PRIVATE | Private certificate for secure connection | security | added: v0.0.3
 | tls_cert_public | `<ROOT>`/settings/cert_public.pem | DARE_TLS_CERT_PUBLIC | Public certificate for secure connection | security | added: v0.0.3|
 
+### Internal Settings and Constants
 
+The current section documents a hardcoded settings and constants used in the DareDB
+
+* `JWT` token has an `expirationTime` of a token set to `5 minutes`. After this period, a new  JWT token must be requested.
