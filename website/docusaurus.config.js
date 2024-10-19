@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://dmarro89.github.com/',
+  url: 'https://dmarro89.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/daredb-docs/',
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/vdmitriyev/daredb-docs/tree/main/website',            
+            'https://github.com/dmarro89/daredb-docs/tree/main/website',            
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/vdmitriyev/daredb-docs/tree/main/website',
+            'https://github.com/dmarro89/daredb-docs/tree/main/website',
         },
         theme: {
           customCss: './src/css/custom.css',
