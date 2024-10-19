@@ -40,4 +40,4 @@ The database should use a configuration file that will defined following paramet
 
 The current section documents a hardcoded settings and constants used in the DareDB
 
-* `JWT` token has an `expirationTime` of a token set to `5 minutes`. After this period, a new  JWT token must be requested.
+* `JWT` token has an `expirationTime` of a token set to `50 minutes`. After this period, a new  JWT token must be requested.
