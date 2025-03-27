@@ -2,45 +2,13 @@
 sidebar_position: 10
 ---
 
-# Example Usage
+## How to Use: Examples
 
-Below is a simple example of how to use this database in a Go application:
+A number of examples to demonstrate, how to use the database in a Go application:
 
-```go
-package main
+* [daredb_basic.go](https://github.com/dmarro89/dare-db/tree/main/examples/go/daredb_basic.go)
+* [daredb_jwt_basic.go](https://github.com/dmarro89/dare-db/tree/main/examples/go/daredb_jwt_basic.go)
 
-import (
-    "fmt"
-    "net/http"
-    "bytes"
-)
+A number of examples to demonstrate, how to use the database in a Python application:
 
-func main() {
-    // Example of inserting a new item
-    _, err := http.Post("http://localhost:2605/set", "application/json", bytes.NewBuffer([]byte(`{"myKey":"myValue"}`)))
-    if err != nil {
-        fmt.Println("Error while inserting item:", err)
-        return
-    }
-
-    // Example of retrieving an item
-    resp, err := http.Get("http://localhost:2605/get/myKey")
-    if err != nil {
-        fmt.Println("Error while retrieving item:", err)
-        return
-    }
-    defer resp.Body.Close()
-
-    // Example of deleting an item
-    req, err := http.NewRequest("DELETE", "http://localhost:2605/delete/myKey", nil)
-    if err != nil {
-        fmt.Println("Error while deleting item:", err)
-        return
-    }
-    _, err = http.DefaultClient.Do(req)
-    if err != nil {
-        fmt.Println("Error while deleting item:", err)
-        return
-    }
-}
-```
+* [daredb_jwt_collection.py](https://github.com/dmarro89/dare-db/tree/main/examples/python/daredb_jwt_collection.py)
